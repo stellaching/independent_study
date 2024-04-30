@@ -1,0 +1,106 @@
+/*tab標籤*/
+.searchtab {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    font-family: Nishiki-teki; /*Nishiki-teki*/
+    font-size: 32px;
+}
+
+.searchtablist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchtabheadleft {
+    padding: 0.5rem; /*1.5rem*/
+    border: #3f5269 solid 6px;
+    border-radius: 20px 0 0 20px;
+    background-color: #ffeeb1;
+}
+
+.searchtabheadright {
+    padding: 0.5rem; /*1.5rem*/
+    border: #3f5269 solid 6px;
+    border-radius: 0 20px 20px 0;
+    background-color: #ffeeb1;
+}
+
+.searchtabheadleft:hover {
+    background: lightcyan;
+}
+
+.searchtabheadright:hover {
+    background: lightcyan;
+}
+
+#searchbox {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+    border-style: solid;
+    border-color: #FFC98D;
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#searchselect {
+    color: #363636; /*#808080*/
+    font-family: Nishiki-teki;
+    font-size: 25px;
+    text-align: center;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchselecticon {
+    position:absolute;
+    margin-top: 3px;
+    margin-left: 170px;
+}
+
+#searchbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: Nishiki-teki;
+    font-size: 28px;
+    border-radius: 1em;
+}
+
+#searchbutton:hover {
+    background-color: #ffeaa5;
+}
+
+#searchicon {
+     position: absolute;
+    margin-top: 16px;
+    margin-left: 220px;
+}
+
+#searchinput {
+    display: block;
+    border-radius: 1em;
+    border-width: 3px;
+    border-color: #FFC98D;
+    font-family: Potta One;
+    font-size: 20px;
+    color: #585858;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

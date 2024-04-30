@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+/*tab標籤*/
+.tab {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    font-family: Nishiki-teki; /*Nishiki-teki*/
+    font-size: 25px;
+}
+
+.tablist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabheadleft {
+    padding: 1rem; /*1.5rem*/
+    border: #3f5269 solid 5px;
+    border-radius: 20px 0 0 20px;
+    background-color: #ffeeb1;
+}
+
+.tabheadmiddle {
+    padding: 0.55rem; /*1.5rem*/
+    border: #3f5269 solid 5px;
+    background-color: #ffeeb1;
+}
+
+.tabheadright {
+    padding: 1rem; /*1.5rem*/
+    border: #3f5269 solid 5px;
+    border-radius: 0 20px 20px 0;
+    background-color: #ffeeb1;
+}
+
+.tabheadleft:hover {
+    background: lightcyan;
+}
+
+.tabheadmiddle:hover {
+    background: lightcyan;
+}
+
+.tabheadright:hover {
+    background: lightcyan;
+}
+
+#tenantsearchbox {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    border-style: solid;
+    border-color: #FFC98D;
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#tenantsearchbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-family: Nishiki-teki;
+    font-size: 28px;
+    border-radius: 1em;
+}
+
+#tenantsearchbutton:hover {
+    background-color: #ffeaa5;
+}
+
+#tenantsearchicon {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 220px;
+}
+
+#tenantsearchinput {
+    margin-top: 30px;
+    display: block;
+    border-radius: 1em;
+    border-width: 3px;
+    border-color: #FFC98D;
+    font-family: Potta One;
+    font-size: 20px;
+    color: #585858;
+}
+
+#paydepositbox {
+    margin-top: 30px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-color: #FFC98D;
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+    font-family: Potta One;
+}
+
+#paydepositbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-family: Potta One;
+    font-size: 28px;
+    border-radius: 1em;
+}
+
+#paydepositbutton:hover {
+    background-color: #ffeaa5;
+}
+
+#paydepositlabel {
+    color:#585858;
+    font-size: 25px;
+}
+
+#paydepositinputicon {
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+#paydepositicon {
+    position:absolute;
+    margin-top: 14px;
+    margin-left: 212px;
+    width: 10%;
+}
+
+#paymentinput {
+    display: block;
+    border-radius: 1em;
+    border-width: 3px;
+    border-color: #FFC98D;
+    font-family: Potta One;
+    font-size: 20px;
+    color: #585858;
+}
+
+#paymentinputmessage {
+    font-family: Setofont;
+    font-size: 20px;
+}
+
+#paymentbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-family: Potta One;
+    font-size: 20px;
+    border-radius: 1em;
+}
+
+#paymenthashbox {
+    width: 45%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+    border-style: solid;
+    border-color: #FFC98D; 
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#paymenthashlabel {
+    color:#585858;
+    font-size: 25px;
+}
+
+#copybutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 3px;
+   
+    font-family: Potta One;
+    border-radius: 1em;
+}
+
+
+

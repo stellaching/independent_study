@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+.paymenttitle {
+
+    font-family: Potta One;
+    font-size: 80px;
+    color: #fdc92f;
+    background-color: aliceblue;
+    
+    border-style:double;
+    border-color: #2e2915;
+    border-width:8px;
+
+    margin: 50px 150px 50px 150px;
+    padding:5px;
+    position: relative;
+    text-align: center;
+}
+
+/*tab標籤*/
+.tab {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    font-family: Nishiki-teki; /*Nishiki-teki*/
+    font-size: 32px;
+}
+
+.tablist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabheadleft {
+    padding: 0.5rem; /*1.5rem*/
+    border: #3f5269 solid 6px;
+    border-radius: 20px 0 0 20px;
+    background-color: #ffeeb1;
+}
+
+.tabheadright {
+    padding: 0.5rem; /*1.5rem*/
+    border: #3f5269 solid 6px;
+    border-radius: 0 20px 20px 0;
+    background-color: #ffeeb1;
+}
+
+.tabheadleft:hover {
+    background: lightcyan;
+}
+
+.tabheadright:hover {
+    background: lightcyan;
+}
+
+#renthousebox {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+    border-style: solid;
+    border-color: #FFC98D;
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#confirmrentalbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-family: Potta One;
+    font-size: 25px;
+    border-radius: 1em;
+}
+
+#confirmrentalbutton:hover {
+    background-color: #b1d8ff; /*#fefade */
+}
+
+#confirmrentalicon {
+    position:absolute;
+    margin-top: 12px;
+    margin-left: 190px;
+    width: 10%;
+    transform: rotate(360deg);
+}
+
+#quitleasebutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: Potta One;
+    font-size: 38px;
+    border-radius: 1em;
+}
+
+#quitleasebutton:hover {
+   background-color: lemonchiffon; /*#fefade*/
+}
+
+#quitleaseicon {
+    position:absolute;
+    margin-top: 28px;
+    margin-left: 670px;
+    width: 4.5%;
+}
+
+#paymentlabel {
+    color:#282A48;
+    font-size: 20px;
+}
+
+#paymentinput {
+    font-family: Potta One;
+    font-size: 20px;
+}
+
+#paymentinputmessage {
+    font-family: Setofont;
+    font-size: 20px;
+}
+
+
+
+#paymenthashbox {
+    width: 45%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-color: #FFC98D; 
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#copybutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 3px;
+
+    font-family: Potta One;
+    border-radius: 1em;
+}
+
+#renthouseselect {
+    color: #363636; /*#808080*/
+    font-family: Nishiki-teki;
+    font-size: 25px;
+    text-align: center;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#renthouseselecticon {
+    position:absolute;
+    margin-top: 3px;
+    margin-left: 170px;
+}
+
+#renthouseinput {
+    display: block;
+    border-radius: 1em;
+    border-width: 3px;
+    border-color: #FFC98D;
+    font-family: Potta One;
+    font-size: 20px;
+    color: #585858;
+}
+
+#renthouselabel {
+    font-size: 25px;
+    font-family: Nishiki-teki;
+    color: #585858;
+}
+

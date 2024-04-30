@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.uploadtitle {
+    font-family: Potta One;
+    font-size: 80px;
+    color: #fdc92f;
+    background-color: aliceblue;
+    
+    border-style:double;
+    border-color: #2e2915;
+    border-width:8px;
+
+    margin: 17px 150px 40px 150px;
+    padding:5px;
+    position: relative;
+    text-align: center;
+}
+
+#boxupload {
+    margin-top: 50px;
+    font-family: 【阿西】你好星期四;
+    background-color: #fefade; /*  d0dfff*/
+
+    border-radius: 3em;
+    border-style: dashed;
+    border-color: #769dfc;
+    border-width: 5px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#uploadbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: Potta One;
+    border-radius: 1em;
+    font-size: 20px;
+}
+
+.ptitle {
+    color: #769dfc;
+    display: block;
+    font-family: Potta One;
+    text-align: center;
+    font-size: 50px;
+    background-color: azure;
+
+    border-radius: 0.6em;
+    border-style: solid;
+    border-width: 3px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#boxfileurl {
+    font-family: SetoFont;
+    background-color: #fefade; /*  d0dfff*/
+
+    border-radius: 3em;
+    border-style: dashed;
+    border-color: #769dfc;
+    border-width: 5px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 40%;
+}
+
+#choose {
+    margin-top: 30px;
+}
+
+#fileurlfield {
+    font-family: Potta One;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#fileurlinput {
+    font-family: Potta One;
+    border-radius: 1em;
+    border-width: 3px;
+
+}
+
+#fileurllabel {
+    font-size: 20px;
+}
+
+#copybutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: Potta One;
+    border-radius: 1em;
+    font-size: 19px;
+}
+
+#passwordinput {
+    display: block;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: Potta One;
+    border-radius: 5em;
+    border-width: 3px;
+}
+
+#lock {
+    position:absolute;
+    margin-top: -1px;
+    margin-left: 115px;
+}
+
+#eye {
+    cursor: pointer;
+    position:absolute;
+    margin-top:-54px;
+    margin-left: 405px;
+}
+
+
+
+

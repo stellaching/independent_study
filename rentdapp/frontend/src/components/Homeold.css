@@ -1,0 +1,43 @@
+@import url("https://cdn.syncfusion.com/ej2/20.1.48/bootstrap5.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+.hometitle {
+    font-family: Rouge Script;
+    font-size: 80px;
+    font-weight:bold;
+    
+    color: #fdc92f;
+    background-color: aliceblue;
+    
+    border-style:double;
+    border-color: #2e2915;
+    border-width:8px;
+
+    margin: 50px 150px 50px 150px;
+    padding:2px;
+    position: relative;
+    text-align: center;
+}
+
+.logoimage {
+    display: block;
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+#slider{
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+

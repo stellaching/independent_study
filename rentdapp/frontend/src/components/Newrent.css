@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+.paymenttitle {
+
+    font-family: Potta One;
+    font-size: 80px;
+    color: #fdc92f;
+    background-color: aliceblue;
+    
+    border-style:double;
+    border-color: #2e2915;
+    border-width:8px;
+
+    margin: 50px 150px 50px 150px;
+    padding:5px;
+    position: relative;
+    text-align: center;
+}
+
+#newrentbox {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    border-style: solid;
+    border-color: #FFC98D;
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#paymentlabel {
+    color:#282A48;
+    font-size: 20px;
+}
+
+#paymentinput {
+    font-family: Potta One;
+    font-size: 20px;
+}
+
+#paymentinputmessage {
+    font-family: Setofont;
+    font-size: 20px;
+}
+
+#newrentaddbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-family: Nishiki-teki;
+    font-size: 25px;
+    border-radius: 1em;
+}
+
+#newrentaddicon {
+    position:absolute;
+    margin-top: 6px;
+    margin-left: 13px;
+    width: 8%;
+}
+
+#addressicon {
+    position:absolute;
+    margin-top: 6px;
+    margin-left: 13px;
+    width: 6%;
+}
+
+#transactionhashicon {
+    position:absolute;
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+#newrentlabel {
+    color:#585858;
+    font-size: 25px;
+}
+
+
+#paymenthashbox {
+    width: 45%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-color: #FFC98D; 
+    background-color: #fefade;
+    border-radius: 3em;
+    border-width: 5px;
+
+    font-family: Potta One;
+}
+
+#copybutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-size: 22px;
+
+    font-family: Potta One;
+    border-radius: 1em;
+}

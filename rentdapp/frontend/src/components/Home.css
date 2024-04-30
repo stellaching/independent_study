@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.hometitle {
+  font-family: Rouge Script;
+  font-size: 80px;
+  font-weight:bold;
+  
+  color: #fdc92f;
+  background-color: aliceblue;
+  
+  border-style:double;
+  border-color: #2e2915;
+  border-width:8px;
+
+  margin: 50px 150px 50px 150px;
+  padding:2px;
+  position: relative;
+  text-align: center;
+}
+
+.carimage {
+  position: absolute;
+  margin-top: 400px; /*-3%*/
+  margin-left: 1030px;
+  width: 20%; /*55%*/
+  z-index: 3;
+}
+
+.houseimage {
+  position: absolute;
+  margin-top: 320px; /*-3%*/
+  margin-left: 240px;
+  width: 14%; /*55%*/
+  z-index: 3;
+}
+
+.recimage {
+  position: absolute;
+  margin-top: -70px; /*-3%*/
+  margin-left: 600px;
+  width: 20%; /*55%*/
+  z-index: 3;
+}
+
+.carousel {
+  margin-top: 65px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 100%;
+  max-width: 800px;
+}
+
+
+.carousel_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel_card {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(.8);
+  transition: 0.5s ease-in-out;
+}
+
+.carousel_card-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.card_image {
+  height: 100%;
+  width: 100%;
+  /*object-fit: cover;*/
+}
+
+.carousel_arrow_left, .carousel_arrow_right {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #ffeeb1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 11px;
+  cursor: pointer;
+}
+
+.carousel_arrow_left {
+  left: 15px;
+}
+
+.carousel_arrow_right {
+  right: 15px;
+}
+
+.carousel_pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.pagination_dot {
+  height: 10px;
+  width: 10px;
+  background-color: #7d592c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pagination_dot:hover {
+  transform: scale(1.2);
+}
+
+.pagination_dot-active {
+  background-color: rgb(239, 179, 67);
+}
+
+body {
+  background-color: #ffffff;
+}
